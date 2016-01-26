@@ -1,32 +1,3 @@
 <h2> Edit The Article</h2>
 
-<% if @article.errors.any? %>
-
-<h5>these are the limits to create an Article</h5>
-<ul>
-  <% @article.errors.full_messages.each do |msg| %>
- <li><%= msg %></li> 
-  
-  <% end %>
-</ul>
-<% end %>
-
-
-<%= form_for @article do |g|   %>
-
-<p>
-  <%= g.label :Title %><br/>
-  <%= g.text_field :Title %>
-  </p>
-  <p>
-    <%= g.label :Description %><br/>
-    <%= g.text_area :Description %>
-  </p>
-  <p>
-    <%= g.submit %>
-  </p>
-  <p>
-    <%= link_to 'Back', articles_path %>
-  </p>
-  
-  <% end%>
+<%= render 'form' %>
