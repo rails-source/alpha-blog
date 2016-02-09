@@ -1,2 +1,55 @@
+$navbar-default-bg: #808080;
+
+
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo {
+     font-family: "Comic Sans MS", cursive, sans-serif;
+     font-size: 1.4em;
+     color: #fff;
+     }
+.navbar  {
+     border-color: #fff;
+     font-family: "Comic Sans MS", cursive, sans-serif;
+     font-size: 1.2em;
+     }
+.navbar-collapse {
+  color: #fff;
+  background-image: none;
+} 
+
+.centre {
+     text-align: center;
+}
+.jumbotron {
+  background-image: asset-url('we.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+.btn-xlarge {
+  background-color: #808080;
+  font-size: 1.2em;
+}
+.footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+.footer small {
+  float: left;
+}
+.footer ul {
+  float: right;
+  font-style: none;
+}
+.footer ul li {
+  float: left;
+}
+.control-label {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 1.5em;
+}
