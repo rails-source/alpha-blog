@@ -29,6 +29,7 @@ $navbar-default-bg: #808080;
   background-repeat: no-repeat;
   height: 500px;
 }
+
 .btn-xlarge {
   background-color: #808080;
   font-size: 1.2em;
@@ -50,6 +51,22 @@ $navbar-default-bg: #808080;
   float: left;
 }
 .control-label {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 1.5em;
+}
+.panel-heading {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 1.2em;
+}
+.panel-body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 0.9em;
+}
+.col-xs-4 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 0.9em;
+}
+.col-xs-20 {
   font-family: "Comic Sans MS", cursive, sans-serif;
   font-size: 1.5em;
 }
