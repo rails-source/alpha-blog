@@ -1,0 +1,18 @@
+<h3> your account got updated</h3>
+
+<%= form_for @user do |g|   %>
+
+<p>
+  <%= g.label :username %><br/>
+  <%= g.text_field :username %>
+  </p>
+  <p>
+    <%= g.label :email %><br/>
+    <%= g.email_field :email %>
+  </p>
+  <p>
+    <%= g.label :password %>
+    <%= g.password_field :password %>
+  </p>
+  
+  <% end %>
